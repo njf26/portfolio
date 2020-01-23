@@ -46,7 +46,7 @@ h1, h4 {
 
 h1 {
   padding: 10px;
-  border: 2px solid #5D6063;
+  color: #111;
   margin-left: 600px;
   margin-right: 600px;
 }
@@ -77,4 +77,52 @@ p {
 
 .button:hover {
   background-color: #111;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-container {
+  color: #FFEBCD;
+  background-color: #800000;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-options a {
+  color: #FFEBCD;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 15px;
+  display: block;
+}
+
+.menu-options:hover {
+  background-color: #111;
+}
+
+.header-container {
+  color: #800000;
+  background-color: #FFB6C1;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: #111;
+  font-size: 60px;
+  text-align: center;
+  padding: 100px;
 }
