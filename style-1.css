@@ -2,7 +2,6 @@
 
 body {
   color: #800000;
-  background-color: #FFEBCD
 }
 
 ol {
@@ -108,7 +107,6 @@ p {
 
 .header-container {
   color: #800000;
-  background-color: #FFB6C1;
   display: flex;
   justify-content: center;
 }
@@ -125,4 +123,18 @@ p {
   font-size: 60px;
   text-align: center;
   padding: 100px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .header-container {
+    background-color: #DCDCDC
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 601px) {
+  .header-container {
+    background-color: #FFB6C1;
+  }
 }
